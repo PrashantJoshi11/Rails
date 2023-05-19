@@ -1,0 +1,15 @@
+<center>
+<b><h1 style="color:blue">Database Concept</h1><b>
+</center>
+<h1>List of all the Title in the table </h1>
+<ol>
+<% @articles.each do|data| %>
+    
+    <li>
+        <h2> 
+            <%= data.title %>
+        </h2>
+    </li>  
+
+<% end %>
+    <ol>
